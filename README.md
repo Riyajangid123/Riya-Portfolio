@@ -31,7 +31,7 @@ View the live portfolio at: https://Riyajangid123.github.io/Riya-Portfolio/
 ## 📞 Contact
 
 - Email: riyajangid02@gmail.com
-- LinkedIn: https://linkedin.com/in/riyajangid
+- LinkedIn: https://www.linkedin.com/in/riya-jangid
 - GitHub: https://github.com/riyajangid
 - Location: Jaipur, India
 
