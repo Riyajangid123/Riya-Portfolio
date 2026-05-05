@@ -98,8 +98,8 @@ nav ul li a:hover {
     font-size: 3.5rem;
     margin-bottom: 10px;
     animation: slideInLeft 1s ease-out 0.5s both;
-    color: #ffffff;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     font-weight: 700;
 }
 
@@ -108,8 +108,8 @@ nav ul li a:hover {
     margin-bottom: 20px;
     opacity: 1;
     animation: slideInRight 1s ease-out 0.7s both;
-    color: #ffd700;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     font-weight: 600;
 }
 
@@ -118,8 +118,8 @@ nav ul li a:hover {
     max-width: 700px;
     margin: 0 auto 30px;
     animation: fadeIn 1s ease-out 1s both;
-    color: #ffffff;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    color: #000000;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
     font-weight: 500;
     line-height: 1.8;
 }
@@ -132,11 +132,11 @@ nav ul li a:hover {
 }
 
 .social-links a {
-    color: #ffd700;
+    color: #e74c3c;
     font-size: 3rem;
     transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.4));
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+    filter: drop-shadow(0 0 8px rgba(231, 76, 60, 0.5));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,9 +144,9 @@ nav ul li a:hover {
 
 .social-links a:hover {
     transform: translateY(-8px) scale(1.1);
-    color: #ffff00;
-    text-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
-    filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8));
+    color: #c0392b;
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.8);
+    filter: drop-shadow(0 0 15px rgba(231, 76, 60, 0.8));
 }
 
 /* Sections */
