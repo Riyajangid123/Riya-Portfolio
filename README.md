@@ -26,7 +26,7 @@ Welcome to my personal portfolio website! This site showcases my skills, experie
 
 ## 🌐 Live Demo
 
-View the live portfolio at: [Your GitHub Pages URL]
+View the live portfolio at: https://Riyajangid123.github.io/Riya-Portfolio/
 
 ## 📞 Contact
 
