@@ -85,7 +85,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.15);
     z-index: 1;
 }
 
@@ -95,29 +95,33 @@ nav ul li a:hover {
 }
 
 .hero-content h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 10px;
     animation: slideInLeft 1s ease-out 0.5s both;
     color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
 }
 
 .hero-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 20px;
     opacity: 1;
     animation: slideInRight 1s ease-out 0.7s both;
     color: #ffd700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    font-weight: 600;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    max-width: 600px;
+    font-size: 1.3rem;
+    max-width: 700px;
     margin: 0 auto 30px;
     animation: fadeIn 1s ease-out 1s both;
     color: #ffffff;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    line-height: 1.8;
 }
 
 .social-links {
@@ -129,15 +133,20 @@ nav ul li a:hover {
 
 .social-links a {
     color: #ffd700;
-    font-size: 2rem;
-    transition: transform 0.3s ease, color 0.3s ease;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.4));
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links a:hover {
-    transform: translateY(-5px);
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transform: translateY(-8px) scale(1.1);
+    color: #ffff00;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
+    filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8));
 }
 
 /* Sections */
